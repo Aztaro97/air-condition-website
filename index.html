@@ -5,12 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -20,11 +15,13 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/carousel.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/normalize.css">
     <title>Document</title>
   </head>
   <body>
     <header class="fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container">
           <a class="navbar-brand logo" href="#home">au79code</a>
           <button
@@ -83,26 +80,20 @@
 
     <main class="main scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
       <section class="home langing__overlay" id="home">
-        <div class="container">
+        <div class="container" data-aos="zoom-in-down" data-aos-delay="50">
           <div class="row">
             <h1>We provide Trusted repair Company</h1>
-            <p>
-              Donec sollicitudin molestie malesuada. Vestibulum ante ipsum
-              primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-              Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
-              amet ligula.
-            </p>
-            <button class="btn">
-              View more <span><i class="fas fa-arrow-right"></i></span>
-            </button>
+            <div class="read-more js-read-more" data-rm-words="30">
+              <p>Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores praesentium provident consectetur vel soluta distinctio rerum ipsa, magni minima veniam eos velit enim sequi! Ipsam, nostrum? Beatae quas quisquam fugit.</p>
+             </div>
           </div>
         </div>
       </section>
 
       <section class="section__about p-5" id="about">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
+          <div class="row" >
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
               <div class="row about_left">
                 <div class="col-lg-2 firefighter_contente">
                   <img src="images/icons/firefighter.png" alt="" class="icon" />
@@ -113,17 +104,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 about_right">
-              <p>
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla
-                sit amet nisl tempus convallis quis ac lectus. Vestibulum ac
-                diam sit amet quam vehicula elementum sed sit amet dui.
-                Pellentesque in ipsum id orci porta dapibus .
-              </p>
-              <button class="btn">
-                View more <span><i class="fas fa-arrow-right"></i></span>
-              </button>
+            <div class="col-lg-6 about_right" data-aos="fade-left" data-aos-delay="300">
+              <div class="read-more js-read-more" data-rm-words="30">
+                <p>Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores praesentium provident consectetur vel soluta distinctio rerum ipsa, magni minima veniam eos velit enim sequi! Ipsam, nostrum? Beatae quas quisquam fugit  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores praesentium provident consectetur vel soluta distinctio rerum ipsa, magni minima veniam eos velit enim sequi! Ipsam, nostrum? Beatae quas quisquam fugi.</p>
+               </div>
             </div>
           </div>
         </div>
@@ -133,7 +117,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12">
-              <div class="card">
+              <div class="card" data-aos="zoom-in-up" data-aos-delay="300">
                 <div class="card-body">
                   <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
                   <h5 class="card-title">AC Duct Cleaning</h5>
@@ -148,7 +132,7 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
-              <div class="card">
+              <div class="card" data-aos="zoom-in-up" data-aos-delay="300">
                 <div class="card-body">
                   <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
                   <h5 class="card-title">AC Duct Cleaning</h5>
@@ -163,7 +147,7 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
-              <div class="card">
+              <div class="card" data-aos="zoom-in-up" data-aos-delay="300">
                 <div class="card-body">
                   <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
                   <h5 class="card-title">AC Duct Cleaning</h5>
@@ -178,7 +162,7 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
-              <div class="card">
+              <div class="card" data-aos="zoom-in-up" data-aos-delay="300">
                 <div class="card-body">
                   <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
                   <h5 class="card-title">AC Duct Cleaning</h5>
@@ -200,13 +184,13 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 mb-md-5">
-              <div class="gallery__left">
-                <img src="images//icons/portable-ac.png" class="" alt="..." />
+              <div class="gallery__left" data-aos="zoom-in" data-aos-delay="300">
+                <img src="images//icons/portable-ac.png" class="" alt="..." data-aos="fade-right" data-aos-delay="500" />
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" >
               <div class="gallery__right">
-                <div class="content">
+                <div class="content" data-aos="zoom-in-left" data-aos-delay="300">
                   <h5>Why Choose us</h5>
                   <h4>Empower lifes forever better living</h4>
                   <p>
@@ -215,8 +199,8 @@
                   </p>
                 </div>
 
-                <div class="box">
-                  <div class="row p-3">
+                <div class="box" data-aos="zoom-in-left" data-aos-delay="500">
+                  <div class="row p-3" >
                     <div class="col-lg-1">
                       <svg id="ac_svg" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
                     </div>
@@ -231,7 +215,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="zoom-in-left" data-aos-delay="500">
                   <div class="row p-3">
                     <div class="col-lg-1">
                       <svg id="ac_svg" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
@@ -253,37 +237,32 @@
         </div>
       </section>
 
-      <section class="section__projects py-5 pb-0">
-        <div class="container">
+      <section class="section__projects py-5 pb-0" data-aos="fade-up" data-aos-delay="300" >
+        <div class="container" >
           <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6">
-              <div class="content">
+              <div class="content" data-aos="fade-up" data-aos-delay="400">
                 <p class="sous_title">projets</p>
                 <h3 class="title">Latest projects</h3>
-                <p>
-                  Praesent sapien massa, convallis a pellentesque nec, egestas
-                  non nisi. Proin eget tortor risus. Vivamus suscipit tortor
-                  eget felis porttitor volutpat. Donec sollici
-                </p>
-                <button class="btn">
-                  View more <span><i class="fas fa-arrow-right"></i></span>
-                </button>
+                <div class="read-more js-read-more" data-rm-words="30">
+                  <p>Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores praesentium provident consectetur vel soluta distinctio rerum ipsa, magni minima veniam eos velit enim sequi! Ipsam, nostrum? Beatae quas quisquam fugit.</p>
+                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-              <div class="box">
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
                 <img src="images/technicien_images.jpg" alt="" />
                 <p>AC Dust Cleaning</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-              <div class="box">
+              <div class="box" data-aos="fade-up" data-aos-delay="600">
                 <img src="images/technicien_images.jpg" alt="" />
                 <p>AC Dust Cleaning</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-              <div class="box">
+              <div class="box" data-aos="fade-up" data-aos-delay="700">
                 <img src="images/technicien_images.jpg" alt="" />
                 <p>AC Dust Cleaning</p>
               </div>
@@ -295,13 +274,13 @@
       <section class="section__testimonial p-5">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay="700">
               <img
                 src="images/teamwork-meeting-with-business-people.jpg"
                 alt=""
               />
             </div>
-            <div class="col-lg-8 col-md-6">
+            <div class="col-lg-8 col-md-6" data-aos="fade-up" data-aos-delay="900">
               <div class="content px-lg-3">
                 <p class="sous_title">testimonial</p>
                 <h3 class="title">people say about us</h3>
@@ -436,8 +415,10 @@
       </section>
 
       <section class="section__contact" id="contact">
+        
 
       </section>
+
 
 
     </main>
@@ -446,8 +427,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-4 mb-sm-4">
-            <div class="">
-              <h1>au 79 codefooter_info</h1>
+            <div class="footer_info" data-aos="zoom-in-right" data-aos-delay="500">
+              <h1>au 79 code</h1>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus corporis fugiat voluptatem quam pariatur, nulla optio, velit sequi, soluta tenetur laborum fugit sint assumenda ea</p>
               <div class="social_media mb-3">
                 <a href="#" class="link" target="_blank">
@@ -467,7 +448,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mb-sm-4">
-            <div class="footer_link">
+            <div class="footer_link" data-aos="zoom-in" data-aos-delay="300">
               <h1>Quick Links</h1>
               <ul class="nav">
                 <li>
@@ -492,7 +473,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mb-sm-4">
-            <div class="footer_service">
+            <div class="footer_service" data-aos="zoom-in" data-aos-delay="300">
               <h1>services</h1>
               <ul class="nav">
                 <li>
@@ -508,7 +489,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-4 ">
-            <div class="footer_contact">
+            <div class="footer_contact" data-aos="zoom-in-left" data-aos-delay="500">
               <h1>Contact info</h1>
               <ul class="nav">
                 <li>
@@ -527,16 +508,21 @@
             </div>
           </div>
         </div>
-        <hr>
-        <p>Copyright 2021, all rights reserved.</p>
+        <hr >
+        <p >Copyright 2021, all rights reserved.</p>
       </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script >
+      ReadMore.init();
+    </script>
   </body>
 </html>
