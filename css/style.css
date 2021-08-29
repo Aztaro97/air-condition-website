@@ -457,9 +457,7 @@ header {
 
 /* ////////////////    Read more styling    ////////////////// */
 .read-more__link-wrap {
-  
-  color: #fff;
-  
+  color: #fff; 
 }
 .read-more__link-wrap > * {
   color:#fff;
@@ -473,4 +471,162 @@ header {
 }
 .read-more__link-wrap a .fa-arrow-right {
   padding-left: 10px;
+}
+
+
+
+
+
+/* /////////////////////   CONTACT US PAGE STYLING   ////////////////// */
+.contacT_landing {
+  height: 20rem;
+  background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/contact_bg_img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacT_landing h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+
+.contact_section {
+  background: url("../images/maps_bg.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 12rem;
+}
+.form_container {
+  background: #fff;
+  width: 100%;
+  padding:3rem 4rem;
+}
+.form_container h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #57606f;
+  font-weight: 700;
+}
+.form_container h3 span {
+  display: block;
+  color: #1c8b74;
+  font-size: 2.5rem;
+  letter-spacing:2px
+}
+.form_container .double_decoration hr {
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  height: 2px;
+  background: #000;
+}
+.form_container .double_decoration hr:nth-child(1) {
+  position: relative;
+  top: 8px;
+  left: 10px;
+  height: 3px;
+}
+
+
+.form_container .card {
+  background: #1c8b74;
+  color: #fff;
+}
+.form_container .card h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing:1px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.form_container .card .double_decoration hr {
+  background: #fff;
+}
+.form_container .info h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0rem;
+} 
+.form_container .info a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  font-size: .8rem;
+  font-weight: 300;
+}
+.form_container .icon {
+  background: #fff;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+.form h5 {
+  text-transform: uppercase;
+  color: #1c8b74;
+  font-weight: 700;
+}
+.form .double_decoration hr {
+  text-align: start;
+  margin-left: 0;
+}
+.form input, .form  textarea {
+  border: none;
+  border-bottom: 1px solid #111;
+  outline: none;
+  padding-bottom: 6px;
+  margin-bottom: 1rem;
+  resize: none;
+  width: 100%;
+}
+.form  button {
+  background: #1c8b74;
+  color: #fff;
+}
+.form  button:hover {
+  opacity: .9;
+  color: #fff;
+}
+
+.media_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.media_container hr {
+  width: 100%;
+  height: 2px;
+  color: #1c8b74;
+}
+.media_container .media {
+  display: flex;
+  margin:0 5px;
+  
+}
+.media_container .media i {
+  font-size: 1.4rem;
+  padding: 0 5px;
+  color: #1c8b74;
+  transition: all .3s ease-in-out;
+}
+.media_container .media i:hover {
+  transform: translateY(-10px)
+}
+@media only screen and (max-width: 768px) {
+  
 }
