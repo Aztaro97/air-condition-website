@@ -93,7 +93,10 @@ const ReadMore = (() => {
       linkWrap.className = "read-more__link-wrap";
 
       linkWrap.innerHTML = `<a id="read-more_${index}" class="read-more__link" style="cursor:pointer;">${
-        pathName == "/index.html" ? s.moreLinkEng : s.moreLinkAr + s.iconRow
+        pathName == "/index.html" ||
+        pathName == "/air-condition-website/index.html"
+          ? s.moreLinkEng
+          : s.moreLinkAr + s.iconRow
       }</a>`;
 
       // Inset created link
@@ -120,11 +123,18 @@ const ReadMore = (() => {
           if (this.dataset.clicked !== "true") {
             el[index].innerHTML = s.originalContentArr[index];
             this.innerHTML =
-              pathName === "/index.html" ? s.lessLinkAng : s.lessLinkAr;
+              pathName == "/index.html" ||
+              pathName == "/air-condition-website/index.html"
+                ? s.lessLinkAng
+                : s.lessLinkAr;
             this.dataset.clicked = true;
           } else {
             el[index].innerHTML = s.truncatedContentArr[index];
-            this.innerHTML = (pathName == "/index.html" ? s.moreLinkEng : s.moreLinkAr) + s.iconRow;
+            this.innerHTML =
+              (pathName == "/index.html" ||
+              pathName == "/air-condition-website/index.html"
+                ? s.moreLinkEng
+                : s.moreLinkAr) + s.iconRow;
             this.dataset.clicked = false;
           }
         });
