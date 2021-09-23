@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" integrity="sha512-F7WyTLiiiPqvu2pGumDR15med0MDkUIo5VTVyyfECR5DZmCnDhti9q5VID02ItWjq6fvDfMaBaDl2J3WdL1uxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+      integrity="sha512-F7WyTLiiiPqvu2pGumDR15med0MDkUIo5VTVyyfECR5DZmCnDhti9q5VID02ItWjq6fvDfMaBaDl2J3WdL1uxA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -13,18 +19,35 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css"
+      integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/carousel.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
+      integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/lighSlider.js"></script>
     <title>Welcome to AU 79 Code</title>
   </head>
-  <body  >
+  <body>
     <header class="fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand logo" href="./index.html">au79code</a>
+          <a class="navbar-brand logo" href="./index-ar.html">
+            <img src="./images/logo.png" alt="" />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -40,50 +63,84 @@
             class="nav__right collapse navbar-collapse"
             id="navbarTogglerDemo02"
           >
-            <ul class="navbar-nav mb-2 mb-lg-0 mx-lg-3" >
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-lg-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">
-                    مستلزمات المنزل
+                <a class="nav-link" aria-current="page" href="#home">
+                  الصفحة الرئيسية
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">حول</a>
+                <a class="nav-link" href="#about">معلومات عنا</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#service">خدمات</a>
+                <a class="nav-link" href="#service">خدماتنا</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#gallery">صالة عرض</a>
+                <a class="nav-link" href="#gallery">عرض الصور</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#testimonial">الشهادات - التوصيات</a>
+                <a class="nav-link" href="#testimonial">آراء</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./src/contact-ar.html">اتصل بنا</a>
+                <a class="nav-link" href="./src/contact-ar.html"> اتصل بنا </a>
               </li>
             </ul>
             <div class="social_media">
-              <a href="https://www.facebook.com" class="link" target="_blank" rel="noopener noreferrer" >
+              <a
+                href="/#"
+                class="link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i class="fab fa-facebook"></i>
               </a>
-              <a href="https://www.linkedin.com" class="link" target="_blank" rel="noopener noreferrer" >
+              <a
+                href="/#"
+                class="link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i class="fab fa-linkedin"></i>
               </a>
-              <a href="https://www.twitter.com" class="link" target="_blank" rel="noopener noreferrer" >
+              <a
+                href="/#"
+                class="link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="https://www.instagram.com" class="link" target="_blank" rel="noopener noreferrer" >
+              <a
+                href="https://www.instagram.com/al_saytarh/"
+                class="link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i class="fab fa-instagram"></i>
               </a>
             </div>
-            <div class="navbar-collapse" id="navbarNavDarkDropdown">
+            <div class="navbar-collapse langue" id="navbarNavDarkDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fas fa-globe"></i> اللغة 
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDarkDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-globe"></i> اللغة
                   </a>
-                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                    <li><a class="dropdown-item" href="./index.html"> <span class="flag-icon flag-icon-gb "> </span> English </a></li>
+                  <ul
+                    class="dropdown-menu dropdown-menu-dark"
+                    aria-labelledby="navbarDarkDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="./index.html">
+                        <span class="flag-icon flag-icon-gb"> </span> English
+                      </a>
+                    </li>
                     <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
                     <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                   </ul>
@@ -95,21 +152,39 @@
       </nav>
     </header>
 
-    <main class="main scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
-      <section class="home langing__overlay" id="home" data-aos="zoom-in-down" data-aos-delay="50">
-        <div class="container" >
+    <main
+      class="main scrollspy-example"
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example2"
+      data-bs-offset="0"
+      tabindex="0"
+    >
+      <section
+        class="home langing__overlay"
+        id="home"
+        data-aos="zoom-in-down"
+        data-aos-delay="50"
+      >
+        <div class="container">
           <div class="row">
-            <h1>نحن نقدم شركة إصلاح موثوقة</h1>
-            <div class="read-more js-read-more" data-rm-words="30">
-              <p>Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores praesentium provident consectetur vel soluta distinctio rerum ipsa, magni minima veniam eos velit enim sequi! Ipsam, nostrum? Beatae quas quisquam fugit.</p>
-             </div>
+            <h1>نسعى دائما لإرضاء عملائنا</h1>
+            <!-- <div class="read-more js-read-more" data-rm-words="30">
+              <p>
+                Vivamus suscipit tortor eget felis porttitor volutpat. Praesent
+                sapien massa, convallis a pellentesque nec, egestas non nisi.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                praesentium provident consectetur vel soluta distinctio rerum
+                ipsa, magni minima veniam eos velit enim sequi! Ipsam, nostrum?
+                Beatae quas quisquam fugit.
+              </p>
+            </div> -->
           </div>
         </div>
       </section>
 
       <section class="section__about p-5" id="about">
         <div class="container">
-          <div class="row" >
+          <div class="row">
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
               <div class="row about_left">
                 <div class="col-lg-2 firefighter_contente">
@@ -121,10 +196,23 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 about_right" data-aos="fade-left" data-aos-delay="300">
+            <div
+              class="col-lg-6 about_right"
+              data-aos="fade-left"
+              data-aos-delay="300"
+            >
               <div class="read-more js-read-more" data-rm-words="30">
-                <p>Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores praesentium provident consectetur vel soluta distinctio rerum ipsa, magni minima veniam eos velit enim sequi! Ipsam, nostrum? Beatae quas quisquam fugit  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores praesentium provident consectetur vel soluta distinctio rerum ipsa, magni minima veniam eos velit enim sequi! Ipsam, nostrum? Beatae quas quisquam fugi.</p>
-               </div>
+                <p>
+                  إن طموح الريادة و شغف التميز يجـعـلنا في سعي دائـم لأن نكون
+                  الأفضل في حجـم و نوعـيـة أعـمـالـنـا متسلحين بـمـا يــواكـب
+                  طـمـوحـاتـنـا باـلـتـطــويــر الـدائـم لآدائـنـا وتـنـويــع
+                  خـدمـــاتـنـا بـمـا يـتـماشـى مع رغبات عـملائنا لتقوية قدرتنا
+                  التنافسـية في جمـيـع الأنشـطة التي نعمل بها فنحن أهلا
+                  للـمسـؤولـيـة لذلـك فإن شركـة السيطرة لتجارة الأدوات
+                  الكهربائية و أنظـمة تـبريـد مـياه الخزانات تـحاـفظ عـلى
+                  علاقتها بالمجتمع المحيط كما تحافظ على مشروعاتها
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -132,64 +220,75 @@
 
       <section class="section__services p-5" id="service">
         <div class="container">
+          <h1 class="title">خدماتنا</h1>
           <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="card" data-aos="zoom-in-up" data-aos-delay="300">
+                <img
+                  src="./images/gallery/a10.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
                 <div class="card-body">
-                  <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
-                  <h5 class="card-title">تنظيف مجاري التكييف</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk
-                  </p>
-                  <a href="#" class="">
-                    <i class="fas fa-arrow-right icon"></i>
+                  <p class="card-title">مولدات كهربائية وقطع الغيار</p>
+                  <!-- <p class="card-text">For related repair & maintenance <br> details & discounts, please اتصل بنا
+               . </p> -->
+                  <a href="tel:+97165421161 " class="">
+                    <i class="fas fa-phone-alt icon"></i>
                   </a>
+                  <p class="card-text">اتصل بنا</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="card" data-aos="zoom-in-up" data-aos-delay="300">
+                <img
+                  src="./images/gallery/a2.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
                 <div class="card-body">
-                  <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
-                  <h5 class="card-title">تنظيف مجاري التكييف</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk
-                  </p>
-                  <a href="#" class="">
-                    <i class="fas fa-arrow-right icon"></i>
+                  <p class="card-title">أنظمة وحدات التحكم الإلكترونية</p>
+                  <a href="tel:+97165421161 " class="">
+                    <i class="fas fa-phone-alt icon"></i>
                   </a>
+                  <p class="card-text">اتصل بنا</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="card" data-aos="zoom-in-up" data-aos-delay="300">
+                <img
+                  src="./images/gallery/a14.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
                 <div class="card-body">
-                  <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
-                  <h5 class="card-title">تنظيف مجاري التكييف</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk
-                  </p>
-                  <a href="#" class="">
-                    <i class="fas fa-arrow-right icon"></i>
+                  <p class="card-title">أنـظمـة تنقية المـيـاه</p>
+                  <a href="tel:+97165421161 " class="">
+                    <i class="fas fa-phone-alt icon"></i>
                   </a>
+                  <p class="card-text">اتصل بنا</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="card" data-aos="zoom-in-up" data-aos-delay="300">
+                <img
+                  src="./images/gallery/a4.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
                 <div class="card-body">
-                  <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
-                  <h5 class="card-title">تنظيف مجاري التكييف</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk
+                  <p class="card-title">
+                    أنظمة تبريد و تسخين خزانات المياه
                   </p>
-                  <a href="#" class="">
-                    <i class="fas fa-arrow-right icon"></i>
+                  <a href="tel:+97165421161 " class="">
+                    <i class="fas fa-phone-alt icon"></i>
                   </a>
+                  <p class="card-text">اتصل بنا</p>
                 </div>
               </div>
             </div>
@@ -197,37 +296,75 @@
         </div>
       </section>
 
-      <section class="section__gallery p-5" id="gallery">
+      <section class="section__vision p-5" id="gallery">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 mb-md-5">
-              <div class="gallery__left" data-aos="zoom-in" data-aos-delay="300">
-                <img src="images//icons/portable-ac.png" class="" alt="..." data-aos="fade-right" data-aos-delay="500" />
+              <div
+                class="gallery__left"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
+                <img
+                  src="images/8.png"
+                  class=""
+                  alt="..."
+                  data-aos="fade-right"
+                  data-aos-delay="500"
+                />
               </div>
             </div>
-            <div class="col-lg-6" >
+            <div class="col-lg-6">
               <div class="gallery__right">
-                <div class="content" data-aos="zoom-in-left" data-aos-delay="300">
-                  <h5>لماذا أخترتنا</h5>
-                  <h4>تمكين حياة أفضل إلى الأبد</h4>
-                  <p>
+                <div
+                  class="content"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="300"
+                >
+                  <h5>لماذا نحن</h5>
+                  <!-- <h4>Empower lifes forever better living</h4> -->
+                  <!-- <p>
                     Quisque velit nisi, pretium ut lacinia in, elementum id
                     enim. Nulla quis lorem ut libero malesuada feugiat.
-                  </p>
+                  </p> -->
                 </div>
 
                 <div class="box" data-aos="zoom-in-left" data-aos-delay="500">
-                  <div class="row p-3" >
+                  <div class="row p-3">
                     <div class="col-lg-1">
-                      <svg id="ac_svg" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
+                      <svg
+                        id="ac_svg"
+                        enable-background="new 0 0 512 512"
+                        height="512"
+                        viewBox="0 0 512 512"
+                        width="512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"
+                          />
+                          <path
+                            d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"
+                          />
+                          <path
+                            d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"
+                          />
+                          <path
+                            d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"
+                          />
+                          <path
+                            d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"
+                          />
+                        </g>
+                      </svg>
                     </div>
                     <div class="col-lg-11 col-md-11">
-                      <h5>
-                        لا تشعر بالرأس عندما يكون هناك أفضل مقعد بحالة تهوية
-                      </h5>
+                      <h5 class="sub-title">رؤيتنا</h5>
                       <p>
-                        Nulla quis lorem ut libero malesuada feugiat. Vestibulum
-                        ante ipsum primis in faucibus orci
+                        أن نـكـون أفـضـل شركـة في مجـال أعـمـال الأدوات
+                        الكـهـربائية على مستوى دولة الإمارات العربية المتحدة و
+                        أنظمة تبريد المياه
                       </p>
                     </div>
                   </div>
@@ -235,15 +372,38 @@
                 <div class="box" data-aos="zoom-in-left" data-aos-delay="500">
                   <div class="row p-3">
                     <div class="col-lg-1">
-                      <svg id="ac_svg" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"/><path d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"/><path d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"/><path d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/><path d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"/></g></svg>
+                      <svg
+                        id="ac_svg"
+                        enable-background="new 0 0 512 512"
+                        height="512"
+                        viewBox="0 0 512 512"
+                        width="512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="m346 0h-180c-37.22 0-67.5 30.28-67.5 67.5v362c0 18.11 12.904 33.261 30 36.745v23.255c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-22.5h45v22.5c0 12.406 10.093 22.5 22.5 22.5 9.777 0 18.114-6.271 21.21-15h17.58c3.096 8.729 11.432 15 21.21 15 12.407 0 22.5-10.094 22.5-22.5v-23.255c17.096-3.484 30-18.635 30-36.745v-362c0-37.22-30.28-67.5-67.5-67.5zm-195 497c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm45 22.5c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5v-22.5h15zm82.5 7.5c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm22.5-30h15v15h-15zm37.5 30c-4.136 0-7.5-3.364-7.5-7.5v-22.5h15v22.5c0 4.136-3.364 7.5-7.5 7.5zm37.5-67.5c0 12.406-10.093 22.5-22.5 22.5h-240c-12.407 0-22.5-10.094-22.5-22.5v-362c0-28.948 23.551-52.5 52.5-52.5h180c28.949 0 52.5 23.552 52.5 52.5z"
+                          />
+                          <path
+                            d="m346 30h-180c-20.678 0-37.5 16.822-37.5 37.5v60c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-60c0-12.406 10.093-22.5 22.5-22.5h180c12.407 0 22.5 10.094 22.5 22.5v150c0 12.406-10.093 22.5-22.5 22.5h-180c-12.407 0-22.5-10.094-22.5-22.5v-60c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v60c0 20.678 16.822 37.5 37.5 37.5h180c20.678 0 37.5-16.822 37.5-37.5v-150c0-20.678-16.822-37.5-37.5-37.5z"
+                          />
+                          <path
+                            d="m166 105h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5v30c0 4.143 3.358 7.5 7.5 7.5zm7.5-30h165v15h-165z"
+                          />
+                          <path
+                            d="m158.5 217.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"
+                          />
+                          <path
+                            d="m158.5 157.5c0 4.143 3.358 7.5 7.5 7.5h180c4.142 0 7.5-3.357 7.5-7.5v-30c0-4.143-3.358-7.5-7.5-7.5h-180c-4.142 0-7.5 3.357-7.5 7.5zm15-22.5h165v15h-165z"
+                          />
+                        </g>
+                      </svg>
                     </div>
                     <div class="col-lg-11 col-md-11">
-                      <h5>
-                        لا تشعر بالرأس عندما يكون هناك أفضل مقعد بحالة تهوية
-                      </h5>
+                      <h5 class="sub-title">رسالتنا</h5>
                       <p>
-                        Nulla quis lorem ut libero malesuada feugiat. Vestibulum
-                        ante ipsum primis in faucibus orci
+                        تزويد عملائنا بأحدث تكنلوجية توصلنا إليها في هذا المجال
+                        وأفضل خدمات بجودة عالية و أسعار مناسبة
                       </p>
                     </div>
                   </div>
@@ -254,53 +414,220 @@
         </div>
       </section>
 
-      <section class="section__projects py-5 pb-0" data-aos="fade-up" data-aos-delay="300" >
-        <div class="container" >
-          <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
-              <div class="content" data-aos="fade-up" data-aos-delay="400">
-                <p class="sous_title">المشاريع</p>
-                <h3 class="title">أحدث المشاريع</h3>
-                <div class="read-more js-read-more" data-rm-words="30">
-                  <p>Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores praesentium provident consectetur vel soluta distinctio rerum ipsa, magni minima veniam eos velit enim sequi! Ipsam, nostrum? Beatae quas quisquam fugit.</p>
-                 </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
+      <section class="section_galery">
+        <div class="container">
+          <ul id="imageGalleryArab">
+            <li>
               <div class="box" data-aos="fade-up" data-aos-delay="500">
-                <img src="images/technicien_images.jpg" alt="" />
-                <p>تنظيف الغبار المكيف</p>
+                <img src="./images/gallery/a1.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
               </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-              <div class="box" data-aos="fade-up" data-aos-delay="600">
-                <img src="images/technicien_images.jpg" alt="" />
-                <p>تنظيف الغبار المكيف</p>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a4.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
               </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-              <div class="box" data-aos="fade-up" data-aos-delay="700">
-                <img src="images/technicien_images.jpg" alt="" />
-                <p>تنظيف الغبار المكيف</p>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a5.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
               </div>
-            </div>
-          </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a6.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li data-thumb="./images/11.jpg" data-src="./images/11.jpg">
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a7.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a8.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a9.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a10.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a11.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a12.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a13.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a14.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a15.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a16.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li data-thumb="./images/11.jpg" data-src="./images/11.jpg">
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a16.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a17.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a18.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a19.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a20.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a21.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a22.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a23.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a24.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a25.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a26.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li data-thumb="./images/11.jpg" data-src="./images/11.jpg">
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a27.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a28.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a29.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a30.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a31.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+            <li>
+              <div class="box" data-aos="fade-up" data-aos-delay="500">
+                <img src="./images/gallery/a32.jpg" alt="" />
+                <!-- <p>AC Dust Cleaning</p> -->
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
 
       <section class="section__testimonial p-5" id="testimonial">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay="700">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-right"
+              data-aos-delay="700"
+            >
               <img
                 src="images/teamwork-meeting-with-business-people.jpg"
                 alt=""
               />
             </div>
-            <div class="col-lg-8 col-md-6" data-aos="fade-up" data-aos-delay="900">
+            <div
+              class="col-lg-8 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="900"
+            >
               <div class="content px-lg-3">
-                <p class="sous_title">الشهادات - التوصيات</p>
-                <h3 class="title">يقول الناس عنا</h3>
+                <p class="sous_title">آراء</p>
+                <h3 class="title">أراء عملائنا</h3>
                 <svg
                   id="Capa_1"
                   enable-background="new 0 0 458.353 458.353"
@@ -320,99 +647,182 @@
                     transform="translate(0 2)"
                   />
                 </svg>
-                <p>Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi,</p>
-              
+                <!-- <p>
+                  Cras ultricies ligula sed magna dictum porta. Curabitur
+                  aliquet quam id dui posuere blandit. Nulla porttitor accumsan
+                  tincidunt. Curabitur arcu erat, accumsan id imperdiet et,
+                  porttitor at sem. Curabitur arcu erat, accumsan id imperdiet
+                  et, porttitor at sem. Quisque velit nisi,
+                </p> -->
+
                 <div class="carousel_container">
-                  <div id="carouselExampleCaptions" class="carousel slide  " data-bs-ride="carousel">
-                    
+                  <div
+                    id="carouselExampleCaptions"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
                     <div class="carousel-inner mt-4">
                       <div class="carousel-item active item">
                         <div class="row">
                           <div class="col-sm-2">
-                            <img src="https://i.pravatar.cc/300" class="img-fluid" alt="">
+                            <img
+                              src="https://i.pravatar.cc/300"
+                              class="img-fluid"
+                              alt=""
+                            />
                           </div>
                           <div class="col-sm-10">
                             <div class="content_user">
-                              <h5>Deena Mohamed, <span>Dubai</span> </h5>
-                              <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem</p>
+                              <h5>Deena Mohamed, <span>Dubai</span></h5>
+                              <p>
+                                Curabitur arcu erat, accumsan id imperdiet et,
+                                porttitor at sem
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      
-                      <div class="carousel-item  item">
+
+                      <div class="carousel-item item">
                         <div class="row">
                           <div class="col-sm-2">
-                            <img src="https://i.pravatar.cc/300" class="img-fluid" alt="">
+                            <img
+                              src="https://i.pravatar.cc/300"
+                              class="img-fluid"
+                              alt=""
+                            />
                           </div>
                           <div class="col-sm-10">
                             <div class="content_user">
-                              <h5>Soumia Mohamed, <span>Dubai</span> </h5>
-                              <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem</p>
+                              <h5>Soumia Mohamed, <span>Dubai</span></h5>
+                              <p>
+                                Curabitur arcu erat, accumsan id imperdiet et,
+                                porttitor at sem
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="carousel-item  item">
+                      <div class="carousel-item item">
                         <div class="row">
                           <div class="col-sm-2">
-                            <img src="https://i.pravatar.cc/300" class="img-fluid" alt="">
+                            <img
+                              src="https://i.pravatar.cc/300"
+                              class="img-fluid"
+                              alt=""
+                            />
                           </div>
                           <div class="col-sm-10">
                             <div class="content_user">
-                              <h5>Angel Mohamed, <span>Dubai</span> </h5>
-                              <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem</p>
+                              <h5>Angel Mohamed, <span>Dubai</span></h5>
+                              <p>
+                                Curabitur arcu erat, accumsan id imperdiet et,
+                                porttitor at sem
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="carousel-item  item">
+                      <div class="carousel-item item">
                         <div class="row">
                           <div class="col-sm-2">
-                            <img src="https://i.pravatar.cc/300" class="img-fluid" alt="">
+                            <img
+                              src="https://i.pravatar.cc/300"
+                              class="img-fluid"
+                              alt=""
+                            />
                           </div>
                           <div class="col-sm-10">
                             <div class="content_user">
-                              <h5>Ahlem Mohamed, <span>Dubai</span> </h5>
-                              <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem</p>
+                              <h5>Ahlem Mohamed, <span>Dubai</span></h5>
+                              <p>
+                                Curabitur arcu erat, accumsan id imperdiet et,
+                                porttitor at sem
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="carousel-item  item">
+                      <div class="carousel-item item">
                         <div class="row">
                           <div class="col-sm-2">
-                            <img src="https://i.pravatar.cc/300" class="img-fluid" alt="">
+                            <img
+                              src="https://i.pravatar.cc/300"
+                              class="img-fluid"
+                              alt=""
+                            />
                           </div>
                           <div class="col-sm-10">
                             <div class="content_user">
-                              <h5>Fifi Mohamed, <span>Dubai</span> </h5>
-                              <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem</p>
+                              <h5>Fifi Mohamed, <span>Dubai</span></h5>
+                              <p>
+                                Curabitur arcu erat, accumsan id imperdiet et,
+                                porttitor at sem
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="carousel-item  item">
+                      <div class="carousel-item item">
                         <div class="row">
                           <div class="col-sm-2">
-                            <img src="https://i.pravatar.cc/300" class="img-fluid" alt="">
+                            <img
+                              src="https://i.pravatar.cc/300"
+                              class="img-fluid"
+                              alt=""
+                            />
                           </div>
                           <div class="col-sm-10">
                             <div class="content_user">
-                              <h5>Ahmed Mohamed, <span>Dubai</span> </h5>
-                              <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem</p>
+                              <h5>Ahmed Mohamed, <span>Dubai</span></h5>
+                              <p>
+                                Curabitur arcu erat, accumsan id imperdiet et,
+                                porttitor at sem
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 5"></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="3"
+                        aria-label="Slide 3"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="4"
+                        aria-label="Slide 4"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="5"
+                        aria-label="Slide 5"
+                      ></button>
                     </div>
                     <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -424,29 +834,26 @@
                     </button> -->
                   </div>
                 </div>
-              
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section__contact" id="contact">
-        
-
-      </section>
-
-
-
+      <section class="section__contact" id="contact"></section>
     </main>
 
     <footer class="footer p-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-4 mb-sm-4">
-            <div class="footer_info" data-aos="zoom-in-right" data-aos-delay="500">
-              <h1>au 79 code</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus corporis fugiat voluptatem quam pariatur, nulla optio, velit sequi, soluta tenetur laborum fugit sint assumenda ea</p>
+            <div
+              class="footer_info"
+              data-aos="zoom-in-right"
+              data-aos-delay="500"
+            >
+              <h1>Al Saytarah Electronic</h1>
+              
               <div class="social_media mb-3">
                 <a href="#" class="link" target="_blank">
                   <i class="fab fa-facebook"></i>
@@ -457,32 +864,36 @@
                 <a href="#" class="link" target="_blank">
                   <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#" class="link" target="_blank">
+                <a
+                  href="https://www.instagram.com/al_saytarh/"
+                  class="link"
+                  target="_blank"
+                >
                   <i class="fab fa-instagram"></i>
                 </a>
               </div>
-              <p class="number">رقم الطوارئ: <span>02 454 658477</span> </p>
+              <p class="number">Emergency Number: <span>06 5421161</span></p>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mb-sm-4">
             <div class="footer_link" data-aos="zoom-in" data-aos-delay="300">
-              <h1>Quick Links</h1>
+              <h1>رابط التنقل</h1>
               <ul class="nav">
                 <li>
-                  <a href="#home">مستلزمات المنزل</a>
+                  <a href="#home">الصفحة الرئيسية</a>
                 </li>
                 <li>
                   <a href="#about">معلومات عنا</a>
                 </li>
                 <li>
-                  <a href="#service">خدمات</a>
+                  <a href="#service">الخدمات</a>
                 </li>
                 <li>
-                  <a href="#gallery">صالة عرض</a>
+                  <a href="#gallery">عرض الصور</a>
                 </li>
-                <!-- <li>
-                  <a href="#protfolio">protfolio</a>
-                </li> -->
+                <li>
+                  <a href="#testimonials">آراء</a>
+                </li>
                 <li>
                   <a href="#contact">اتصل بنا</a>
                 </li>
@@ -491,54 +902,78 @@
           </div>
           <div class="col-lg-3 col-md-4 mb-sm-4">
             <div class="footer_service" data-aos="zoom-in" data-aos-delay="300">
-              <h1>خدمات</h1>
+              <h1>خدماتنا</h1>
               <ul class="nav">
-                <li>
-                  تنظيف الغبار المكيف
-                </li>
-                <li>
-                    ريبير والتنظيف
-                </li>
-                <li>
-                    فحص الجودة
-                </li>
+                <li>مولدات كهربائية وقطع الغيار</li>
+                <li>أنظمة وحدات التحكم الإلكترونية</li>
+                <li>أنـظمـة تنقية المـيـاه</li>
+                <li>أنظمة تبريد و تسخين خزانات المياه</li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 ">
-            <div class="footer_contact" data-aos="zoom-in-left" data-aos-delay="500">
-              <h1>معلومات للتواصل</h1>
+          <div class="col-lg-3 col-md-4">
+            <div
+              class="footer_contact"
+              data-aos="zoom-in-left"
+              data-aos-delay="500"
+            >
+              <h1>بيانات التواصل</h1>
               <ul class="nav">
                 <li>
-                  <a href="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003" target="_blank">Al rashidya , Dubai , UAE</a>
+                  <a
+                    href="https://goo.gl/maps/3ZCsgQ9vK5wYdYiG9"
+                    target="_blank"
+                  >
+                    <i class="fas fa-map-marker-alt"></i> Sharjah - Industrial
+                    No. 3 - Near CAT
+                  </a>
                 </li>
                 <li>
-                  <a href="tel:+971524545454545">+971 52 4545454545</a>
+                  <a href="tel:+97165421161">
+                    <i class="fas fa-phone-alt"></i> +971 06 5421161
+                  </a>
                 </li>
                 <li>
-                  <a href="tel:+971524545454545">+971 52 4545454545</a>
+                  <a href="tel:+971509139138">
+                    <i class="fas fa-phone-alt"></i> +971 050 9139138</a
+                  >
                 </li>
                 <li>
-                  <a href="mailto:info@au79code.com">info@au79code.com</a>
+                  <a
+                    href="mailto:al.deleme83@gmail.com"
+                    style="text-transform: lowercase"
+                    ><i class="fas fa-envelope"></i> al.deleme83@gmail.com</a
+                  >
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <hr >
-        <p >حقوق الطبع والنشر 2021 ، جميع الحقوق محفوظة.</p>
+        <hr />
+        <p>Copyright 2021, all rights reserved</p>
       </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js" integrity="sha512-NWNl2ZLgVBoi6lTcMsHgCQyrZVFnSmcaa3zRv0L3aoGXshwoxkGs3esa9zwQHsChGRL4aLDnJjJJeP6MjPX46Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"
+      integrity="sha512-sww7U197vVXpRSffZdqfpqDU2SNoFvINLX4mXt1D6ZecxkhwcHmLj3QcL2cJ/aCxrTkUcaAa6EGmPK3Nfitygw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"
+      integrity="sha512-NWNl2ZLgVBoi6lTcMsHgCQyrZVFnSmcaa3zRv0L3aoGXshwoxkGs3esa9zwQHsChGRL4aLDnJjJJeP6MjPX46Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
     <script src="js/app.js"></script>
     <script>
       AOS.init();
     </script>
-    <script >
+    <script>
       ReadMore.init();
     </script>
   </body>

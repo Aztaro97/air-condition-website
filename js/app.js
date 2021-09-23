@@ -94,7 +94,7 @@ const ReadMore = (() => {
 
       linkWrap.innerHTML = `<a id="read-more_${index}" class="read-more__link" style="cursor:pointer;">${
         pathName == "/index.html" ||
-        pathName == "/air-condition-website/index.html"
+        pathName == "/air-condition-website/index.html" || pathName == "/"
           ? s.moreLinkEng
           : s.moreLinkAr + s.iconRow
       }</a>`;
