@@ -74,7 +74,7 @@ header .langue {
 
 /* ///////////////   /////////    HOME SECTION   ///////////// */
 .langing__overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(40,50,58,.85) 0%,rgba(40,50,58,.5) 100%),
     url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
