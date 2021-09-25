@@ -74,7 +74,7 @@ header .langue {
 
 /* ///////////////   /////////    HOME SECTION   ///////////// */
 .langing__overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,12 +82,13 @@ header .langue {
   color: #fff;
   height: 650px;
   padding-left: 1rem;
-
   display: flex;
   align-items: center;
 }
 .langing__overlay .row {
   max-width: 500px;
+  margin: auto .5rem;
+  /* color: #000; */
 }
 .langing__overlay .row h1 {
   color: #fff;
@@ -95,6 +96,7 @@ header .langue {
   letter-spacing:1px;
   /* color: var(--orange-color); */
   font-weight: bold;
+  margin-bottom: .7rem;
 }
 
 .langing__overlay .row .btn:hover {
@@ -102,6 +104,17 @@ header .langue {
 }
 .langing__overlay .row .btn i {
   margin-left: 5px;
+}
+.langing__overlay ul {
+  list-style:none;
+  
+}
+.langing__overlay ul li {
+  padding: 1px;
+  font-size: 17px;
+  letter-spacing:1px;
+  text-transform: capitalize;
+
 }
 
 /* /////////////////// //////////////////  ABOUT  SECTION   ////////////////// */
