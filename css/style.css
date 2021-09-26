@@ -126,10 +126,19 @@ header .langue {
 }
 .langing__overlay ul li {
   padding: 1px;
-  font-size: 17px;
+  font-size: 1.06rem;
   letter-spacing:1px;
   text-transform: capitalize;
 
+}
+@media only screen and (max-width: 768px) {
+  .langing__overlay { 
+    height: 600px;
+    padding: 3rem 1rem;
+  }
+  .langing__overlay .row h1 {
+    font-size: 2rem;
+  }
 }
 
 /* /////////////////// //////////////////  ABOUT  SECTION   ////////////////// */
