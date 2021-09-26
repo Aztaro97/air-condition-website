@@ -81,22 +81,37 @@ header .langue {
   background-position: center center;
   color: #fff;
   height: 650px;
-  padding-left: 1rem;
+  margin-top: 5rem;
+  padding: 3rem;
+  
+}
+.langing__overlay .container {
+  /* max-width: 500px; */
+  /* margin: auto .5rem; */
+  border: 2px solid var(--orange-color);
+  padding: 1rem !important;
+  height:100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  /* color: #000; */
 }
 .langing__overlay .row {
-  max-width: 500px;
-  margin: auto .5rem;
-  /* color: #000; */
+  text-align: center;
 }
 .langing__overlay .row h1 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing:1px;
   /* color: var(--orange-color); */
+  text-transform: uppercase;
   font-weight: bold;
   margin-bottom: .7rem;
+}
+.langing__overlay .row h1 span {
+  display: block;
+  color: var(--orange-color);
+  text-decoration:underline;
 }
 
 .langing__overlay .row .btn:hover {
